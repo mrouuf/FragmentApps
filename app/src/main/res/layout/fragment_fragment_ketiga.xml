@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FragmentKetiga"
+    android:background="@color/colorKedua">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air Plane Ticket ?"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:textColor="@color/putih"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/penjelasan3"
+        android:textColor="@color/putih"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/hello"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="NEXT"
+        android:background="@color/colorKedua"
+        android:textColor="@color/putih"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <Button
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="SKIP"
+        android:background="@color/colorKedua"
+        android:textColor="@color/putih"
+        android:fontFamily="sans-serif-light"
+        />
+
+</RelativeLayout>
